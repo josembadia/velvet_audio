@@ -1,0 +1,10 @@
+#th: 1 ; #ch: 100 ; #blocks: 1 ; bsize: 1024 ; nb: 1024; #samples: 1024 ; Tot time:  0.00126 s. ; Time/block:   1.26 ms.
+#th: 1 ; #ch: 200 ; #blocks: 1 ; bsize: 1024 ; nb: 1024; #samples: 1024 ; Tot time:  0.00213 s. ; Time/block:   2.13 ms.
+#th: 1 ; #ch: 300 ; #blocks: 1 ; bsize: 1024 ; nb: 1024; #samples: 1024 ; Tot time:  0.00328 s. ; Time/block:   3.28 ms.
+#th: 1 ; #ch: 400 ; #blocks: 1 ; bsize: 1024 ; nb: 1024; #samples: 1024 ; Tot time:  0.00439 s. ; Time/block:   4.39 ms.
+#th: 1 ; #ch: 500 ; #blocks: 1 ; bsize: 1024 ; nb: 1024; #samples: 1024 ; Tot time:  0.00554 s. ; Time/block:   5.54 ms.
+#th: 1 ; #ch: 600 ; #blocks: 1 ; bsize: 1024 ; nb: 1024; #samples: 1024 ; Tot time:  0.00660 s. ; Time/block:   6.60 ms.
+#th: 1 ; #ch: 700 ; #blocks: 1 ; bsize: 1024 ; nb: 1024; #samples: 1024 ; Tot time:  0.00769 s. ; Time/block:   7.69 ms.
+#th: 1 ; #ch: 800 ; #blocks: 1 ; bsize: 1024 ; nb: 1024; #samples: 1024 ; Tot time:  0.00873 s. ; Time/block:   8.73 ms.
+#th: 1 ; #ch: 900 ; #blocks: 1 ; bsize: 1024 ; nb: 1024; #samples: 1024 ; Tot time:  0.00987 s. ; Time/block:   9.87 ms.
+#th: 1 ; #ch: 1000 ; #blocks: 1 ; bsize: 1024 ; nb: 1024; #samples: 1024 ; Tot time:  0.01093 s. ; Time/block:  10.93 ms.

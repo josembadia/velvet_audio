@@ -1,0 +1,29 @@
+v0 #th: 1 ; #ch: 1 ; #blocks: 859 ; bsize: 1024 ; nb: 88000; #samples: 880000 ; Tot time: 22.00622 s. ; Time/block:  25.62 ms.
+********************
+v1 #th: 1 ; #ch: 1 ; #blocks: 859 ; bsize: 1024 ; nb: 88000; #samples: 880000 ; Tot time: 18.29348 s. ; Time/block:  21.30 ms.
+********************
+v2 #th: 1 ; #ch: 1 ; #blocks: 859 ; bsize: 1024 ; nb: 88000; #samples: 880000 ; Tot time: 17.64578 s. ; Time/block:  20.54 ms.
+********************
+v3 #th: 1 ; #ch: 1 ; #blocks: 859 ; bsize: 1024 ; nb: 88000; #samples: 880000 ; Tot time:  1.95425 s. ; Time/block:   2.28 ms.
+********************
+v4 #th: 1 ; #ch: 1 ; #blocks: 859 ; bsize: 1024 ; nb: 88000; #samples: 880000 ; Tot time:  2.51645 s. ; Time/block:   2.93 ms.
+********************
+v0 #th: 1 ; #ch: 1 ; #blocks: 429 ; bsize: 2048 ; nb: 88000; #samples: 880000 ; Tot time: 21.83934 s. ; Time/block:  50.91 ms.
+********************
+v1 #th: 1 ; #ch: 1 ; #blocks: 429 ; bsize: 2048 ; nb: 88000; #samples: 880000 ; Tot time: 18.13899 s. ; Time/block:  42.28 ms.
+********************
+v2 #th: 1 ; #ch: 1 ; #blocks: 429 ; bsize: 2048 ; nb: 88000; #samples: 880000 ; Tot time: 17.47641 s. ; Time/block:  40.74 ms.
+********************
+v3 #th: 1 ; #ch: 1 ; #blocks: 429 ; bsize: 2048 ; nb: 88000; #samples: 880000 ; Tot time:  1.96119 s. ; Time/block:   4.57 ms.
+********************
+v4 #th: 1 ; #ch: 1 ; #blocks: 429 ; bsize: 2048 ; nb: 88000; #samples: 880000 ; Tot time:  2.50289 s. ; Time/block:   5.83 ms.
+********************
+v0 #th: 1 ; #ch: 1 ; #blocks: 214 ; bsize: 4096 ; nb: 88000; #samples: 880000 ; Tot time: 21.82276 s. ; Time/block: 101.98 ms.
+********************
+v1 #th: 1 ; #ch: 1 ; #blocks: 214 ; bsize: 4096 ; nb: 88000; #samples: 880000 ; Tot time: 18.14070 s. ; Time/block:  84.77 ms.
+********************
+v2 #th: 1 ; #ch: 1 ; #blocks: 214 ; bsize: 4096 ; nb: 88000; #samples: 880000 ; Tot time: 17.46838 s. ; Time/block:  81.63 ms.
+********************
+v3 #th: 1 ; #ch: 1 ; #blocks: 214 ; bsize: 4096 ; nb: 88000; #samples: 880000 ; Tot time:  2.20697 s. ; Time/block:  10.31 ms.
+********************
+v4 #th: 1 ; #ch: 1 ; #blocks: 214 ; bsize: 4096 ; nb: 88000; #samples: 880000 ; Tot time:  2.58869 s. ; Time/block:  12.10 ms.

@@ -1,0 +1,3 @@
+v3 #th: 1 ; #ch: 1 ; #blocks: 859 ; bsize: 1024 ; nb: 88000; #samples: 880000 ; Tot time:  1.91391 s. ; Time/block:   2.23 ms.
+v3 #th: 1 ; #ch: 1 ; #blocks: 429 ; bsize: 2048 ; nb: 88000; #samples: 880000 ; Tot time:  1.95699 s. ; Time/block:   4.56 ms.
+v3 #th: 1 ; #ch: 1 ; #blocks: 214 ; bsize: 4096 ; nb: 88000; #samples: 880000 ; Tot time:  2.06380 s. ; Time/block:   9.64 ms.

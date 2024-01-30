@@ -1,0 +1,8 @@
+v3 #th: 4 ; #ch: 1 ; #blocks: 859 ; bsize: 1024 ; nb: 88000; #samples: 880000 ; Tot time:  2.09165 s. ; Time/block:   2.43 ms.
+v3 #th: 4 ; #ch: 2 ; #blocks: 859 ; bsize: 1024 ; nb: 88000; #samples: 880000 ; Tot time:  1.87220 s. ; Time/block:   2.18 ms.
+v3 #th: 4 ; #ch: 3 ; #blocks: 859 ; bsize: 1024 ; nb: 88000; #samples: 880000 ; Tot time:  1.91051 s. ; Time/block:   2.22 ms.
+v3 #th: 4 ; #ch: 4 ; #blocks: 859 ; bsize: 1024 ; nb: 88000; #samples: 880000 ; Tot time:  1.95271 s. ; Time/block:   2.27 ms.
+v3 #th: 4 ; #ch: 5 ; #blocks: 859 ; bsize: 1024 ; nb: 88000; #samples: 880000 ; Tot time:  3.83351 s. ; Time/block:   4.46 ms.
+v3 #th: 4 ; #ch: 6 ; #blocks: 859 ; bsize: 1024 ; nb: 88000; #samples: 880000 ; Tot time:  3.82285 s. ; Time/block:   4.45 ms.
+v3 #th: 4 ; #ch: 7 ; #blocks: 859 ; bsize: 1024 ; nb: 88000; #samples: 880000 ; Tot time:  3.89050 s. ; Time/block:   4.53 ms.
+v3 #th: 4 ; #ch: 8 ; #blocks: 859 ; bsize: 1024 ; nb: 88000; #samples: 880000 ; Tot time:  3.92472 s. ; Time/block:   4.57 ms.

@@ -1,0 +1,10 @@
+#th: 1 ; #ch: 100 ; #blocks: 2 ; bsize: 1024 ; nb: 1320; #samples: 2640 ; Tot time:  0.00680 s. ; Time/block:   3.40 ms.
+#th: 1 ; #ch: 200 ; #blocks: 2 ; bsize: 1024 ; nb: 1320; #samples: 2640 ; Tot time:  0.01000 s. ; Time/block:   5.00 ms.
+#th: 1 ; #ch: 300 ; #blocks: 2 ; bsize: 1024 ; nb: 1320; #samples: 2640 ; Tot time:  0.01485 s. ; Time/block:   7.43 ms.
+#th: 1 ; #ch: 400 ; #blocks: 2 ; bsize: 1024 ; nb: 1320; #samples: 2640 ; Tot time:  0.01987 s. ; Time/block:   9.93 ms.
+#th: 1 ; #ch: 500 ; #blocks: 2 ; bsize: 1024 ; nb: 1320; #samples: 2640 ; Tot time:  0.02482 s. ; Time/block:  12.41 ms.
+#th: 1 ; #ch: 600 ; #blocks: 2 ; bsize: 1024 ; nb: 1320; #samples: 2640 ; Tot time:  0.02974 s. ; Time/block:  14.87 ms.
+#th: 1 ; #ch: 700 ; #blocks: 2 ; bsize: 1024 ; nb: 1320; #samples: 2640 ; Tot time:  0.03498 s. ; Time/block:  17.49 ms.
+#th: 1 ; #ch: 800 ; #blocks: 2 ; bsize: 1024 ; nb: 1320; #samples: 2640 ; Tot time:  0.03966 s. ; Time/block:  19.83 ms.
+#th: 1 ; #ch: 900 ; #blocks: 2 ; bsize: 1024 ; nb: 1320; #samples: 2640 ; Tot time:  0.04461 s. ; Time/block:  22.31 ms.
+#th: 1 ; #ch: 1000 ; #blocks: 2 ; bsize: 1024 ; nb: 1320; #samples: 2640 ; Tot time:  0.04955 s. ; Time/block:  24.78 ms.
