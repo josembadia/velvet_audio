@@ -1,3 +1,23 @@
+###########################################################################
+#  Copyright 2023-24 Jose M. Badia <barrachi@uji.es> and                  #
+#                    German Leon <leon@uji.es>                            #
+#                                                                         #
+#  audio_omp.c is free software: you can redistribute it and/or modify    #
+#  it under the terms of the GNU General Public License as published by   #
+#  the Free Software Foundation; either version 3 of the License, or      #
+#  (at your option) any later version.                                    #
+#                                                                         #
+#  This file is distributed in the hope that it will be useful, but       #
+#  WITHOUT ANY WARRANTY; without even the implied warranty of             #
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU      #
+#  General Public License for more details.                               #
+#                                                                         #
+#  You should have received a copy of the GNU General Public License      #
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>   #
+#                                                                         #
+###########################################################################
+
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
@@ -21,8 +41,8 @@
    #endif
 #endif
 
-#define DEBUG
-#define GOLDEN_TEST // Tests the result with the filter of size 88000
+//#define DEBUG
+//#define GOLDEN_TEST // Tests the result with the filter of size 88000
 #define LAST_NB     // Filters the last block with nb samples
 
 // Counts the number of lines of the text file
@@ -421,7 +441,7 @@ int main(int argc, char *argv[]) {
 
   int i, ch;
 
-  int ntimes = 1; // Number of times that we execute the filtering process
+  int ntimes = 3; // Number of times that we execute the filtering process
 
   int np, nn;
   int ct;
@@ -562,15 +582,15 @@ int main(int argc, char *argv[]) {
   double start, end;
   omp_set_num_threads(nth);
 
-  for (ch = 0; ch < nchannels; ch++)
-     memset(y[ch], 0, nres*sizeof(btype));
+//  for (ch = 0; ch < nchannels; ch++)
+//     memset(y[ch], 0, nres*sizeof(btype));
 
   start = omp_get_wtime();
 
   switch (version) {
     case 1: 
       for (i = 0; i < ntimes; i++)
-#pragma omp parallel for num_threads(nth)
+        #pragma omp parallel for num_threads(nth)
         for (ch = 0; ch < nchannels; ch++)
           processAudio_v1(x[ch], nsamples, b, nb, ind, nind, y[ch], bsize);
 
@@ -578,13 +598,13 @@ int main(int argc, char *argv[]) {
 
     case 2:
       for (i = 0; i < ntimes; i++)
-#pragma omp parallel for num_threads(nth)
+        #pragma omp parallel for num_threads(nth)
         for (ch = 0; ch < nchannels; ch++)
           processAudio_v2(x[ch], nsamples, b, nb, ind, nind, y[ch], bsize);
 
     case 3:
       for (i = 0; i < ntimes; i++)
-#pragma omp parallel for num_threads(nth)
+        #pragma omp parallel for num_threads(nth)
         for (ch = 0; ch < nchannels; ch++)
           processAudio_v3(x[ch], nsamples, nb, indp, np, indn, nn, y[ch], bsize);
 
@@ -592,7 +612,7 @@ int main(int argc, char *argv[]) {
 
     case 4:
       for (i = 0; i < ntimes; i++)
-#pragma omp parallel for num_threads(nth)
+        #pragma omp parallel for num_threads(nth)
         for (ch = 0; ch < nchannels; ch++)
           processAudio_v4(x[ch], nsamples, nb, indp, np, indn, nn, y[ch], bsize);
 
@@ -600,7 +620,7 @@ int main(int argc, char *argv[]) {
 
     case 5:
       for (i = 0; i < ntimes; i++)
-#pragma omp parallel for num_threads(nth)
+        #pragma omp parallel for num_threads(nth)
         for (ch = 0; ch < nchannels; ch++)
           processAudio_v5(x[ch], nsamples, b, nb, ind, nind, y[ch], bsize);
     } // end switch
