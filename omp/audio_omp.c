@@ -44,7 +44,7 @@
 #endif
 
 //#define DEBUG
-//#define GOLDEN_TEST // Tests the result with the filter of size 88000
+#define GOLDEN_TEST // Tests the result with the filter of size 88000
 #define LAST_NB     // Filters the last block with nb samples
 
 // Counts the number of lines of the text file
@@ -427,7 +427,7 @@ void processAudio_v5(btype *x, int nsamples, btype *b, int nb, int *ind, int nin
 int main(int argc, char *argv[]) {
 
   const int MAXINDICES = 100000;
-  int nb = 88000;    // size of vector b containing the coeficients of the filter
+  int nb = 88000;    // size of vector b containing the coeficients of the long filter
   int nind;          // number of non_zero elements in b
   int nsamples, nres;
 
