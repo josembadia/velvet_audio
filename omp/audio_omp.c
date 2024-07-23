@@ -1,3 +1,4 @@
+/*
 ###########################################################################
 #  Copyright 2023-24 Jose M. Badia <barrachi@uji.es> and                  #
 #                    German Leon <leon@uji.es>                            #
@@ -16,6 +17,7 @@
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>   #
 #                                                                         #
 ###########################################################################
+*/
 
 
 #include <stdlib.h>
