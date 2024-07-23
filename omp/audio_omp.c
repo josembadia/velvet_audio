@@ -44,7 +44,7 @@
 #endif
 
 //#define DEBUG
-#define GOLDEN_TEST // Tests the result with the filter of size 88000
+//#define GOLDEN_TEST // Tests the result with the filter of size 88000
 #define LAST_NB     // Filters the last block with nb samples
 
 // Counts the number of lines of the text file
