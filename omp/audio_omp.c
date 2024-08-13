@@ -604,6 +604,8 @@ int main(int argc, char *argv[]) {
         for (ch = 0; ch < nchannels; ch++)
           processAudio_v2(x[ch], nsamples, b, nb, ind, nind, y[ch], bsize);
 
+      break;
+
     case 3:
       for (i = 0; i < ntimes; i++)
         #pragma omp parallel for num_threads(nth)

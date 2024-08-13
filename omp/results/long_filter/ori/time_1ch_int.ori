@@ -1,3 +1,0 @@
-#th: 1 ; #ch: 1 ; #blocks: 171 ; bsize: 1024 ; nb: 88000; #samples: 176000 ; Tot time:  0.38250 s. ; Time/block:   2.24 ms.
-#th: 1 ; #ch: 1 ; #blocks: 85 ; bsize: 2048 ; nb: 88000; #samples: 176000 ; Tot time:  0.38068 s. ; Time/block:   4.48 ms.
-#th: 1 ; #ch: 1 ; #blocks: 42 ; bsize: 4096 ; nb: 88000; #samples: 176000 ; Tot time:  0.39149 s. ; Time/block:   9.32 ms.

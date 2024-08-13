@@ -1,6 +1,0 @@
-#th: 4 ; #ch: 400 ; #blocks: 2 ; bsize: 1024 ; nb: 1320; #samples: 2640 ; Tot time:  0.00966 s. ; Time/block:   4.83 ms.
-#th: 4 ; #ch: 800 ; #blocks: 2 ; bsize: 1024 ; nb: 1320; #samples: 2640 ; Tot time:  0.01899 s. ; Time/block:   9.49 ms.
-#th: 4 ; #ch: 1200 ; #blocks: 2 ; bsize: 1024 ; nb: 1320; #samples: 2640 ; Tot time:  0.02808 s. ; Time/block:  14.04 ms.
-#th: 4 ; #ch: 1600 ; #blocks: 2 ; bsize: 1024 ; nb: 1320; #samples: 2640 ; Tot time:  0.03739 s. ; Time/block:  18.70 ms.
-#th: 4 ; #ch: 2000 ; #blocks: 2 ; bsize: 1024 ; nb: 1320; #samples: 2640 ; Tot time:  0.04683 s. ; Time/block:  23.42 ms.
-#th: 4 ; #ch: 2400 ; #blocks: 2 ; bsize: 1024 ; nb: 1320; #samples: 2640 ; Tot time:  0.05590 s. ; Time/block:  27.95 ms.

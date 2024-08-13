@@ -1,1 +1,0 @@
-#th: 1 ; #ch: 1 ; #blocks: 2 ; bsize: 1024 ; nb: 1320; #samples: 2640 ; Tot time:  0.00029 s. ; Time/block:   0.14 ms.
